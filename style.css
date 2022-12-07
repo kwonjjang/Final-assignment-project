@@ -1,0 +1,30 @@
+
+@charset "utf-8";
+
+/*h2 설정*/ 
+h2 {
+   font-family: 'NanumSquareExtraBold', san-serif; color : #a9a9a9;
+   letter-spacing: -0.05em;
+   padding: 0 0 10px; border-bottom:2px solid #333;
+   }
+
+/*테이블 설정*/
+
+body { padding:50px;}
+
+.product_view { position: relative; padding:0 0 0 410px; width:962px; box-sizing:border-box;}
+.product_view .img { position: absolute; left: 0; top: 0;}
+.product_view .img { width: 368px; height: 370px; border:3px solid #red; }
+
+table th { font-size: 16px; color: #444; text-align: left; }
+table td { padding: 6px 0; font-size: 15px; color: #444; }
+table td.company { font-size : 20px; }
+table td.price { font-size : 20px; color:#0a56a9; }
+
+
+/*버튼모양 설정*/ 
+
+.btns { padding: 30px; text-align: center; }
+.btns > a { display: inline-block; width: 136px; height: 42px; border-radius: 2px; line-height: 42px; font-size: 16px; color: #fff; }
+.btns > a.btns1 { background: #666;}
+.btns > a.btns2 { background: #0a56a9;}
