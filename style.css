@@ -12,7 +12,7 @@ h2 {
 
 body { padding:50px;}
 
-.product_view { position: relative; padding:0 0 0 410px; width:962px; box-sizing:border-box;}
+.product_view { position: relative; padding:0 0 0 410px; width:100%; box-sizing:border-box;}
 .product_view .img { position: absolute; left: 0; top: 0;}
 .product_view .img { width: 368px; height: 370px; border:3px solid #red; }
 
@@ -25,6 +25,12 @@ table td.price { font-size : 20px; color:#0a56a9; }
 /*버튼모양 설정*/ 
 
 .btns { padding: 30px; text-align: center; }
-.btns > a { display: inline-block; width: 136px; height: 42px; border-radius: 2px; line-height: 42px; font-size: 16px; color: #fff; }
+.btns > a { display: inline-block; width: 136px; height: 42px; border-radius: 3px; line-height: 42px; font-size: 16px; color: #fff; text-decoration: none;  }
 .btns > a.btns1 { background: #666;}
 .btns > a.btns2 { background: #0a56a9;}
+
+/*소개정보 설정*/
+
+.main_text0 { width:100%; height: 120px; background: #00769D; }
+.contents1 { padding-top: 20px; font-size: 25px; font-weight: bold; color:white; text-align: center; }
+.contents2 { padding-top: 20px; font-size: 18px; font-weight: bold; color: white; text-align: center;}
