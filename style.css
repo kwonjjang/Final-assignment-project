@@ -35,6 +35,13 @@ body { padding:30px;}
   width:100%; 
   box-sizing:border-box;
   }
+
+.product_view2 { 
+  position: relative; 
+  width:100%; 
+  box-sizing:border-box;
+  }
+
 .product_view .img { 
   position: absolute; left: 0; top: 0;
   }
@@ -90,6 +97,8 @@ table select {
   width:100%; 
   height: 120px; 
   background: #00769D; 
+  margin:0.6rem 0 0 0;
+
   }
 .contents1 { 
   padding-top: 20px; 
@@ -109,7 +118,7 @@ table select {
 /*기타제품소개*/
 
 .box {
-  width:320px;
+  width:270px;
   height:205px;
   border: 3px solid skyblue;
   display: inline-block;
@@ -124,4 +133,22 @@ table select {
  margin: 0 auto;
  }
 
+/*바닥*/
+footer{
+    border-top: 2px solid #333;
+    background-color:#dedede;
+    padding:1rem 0;
+    margin:3rem 0;
+  }
 
+.footer-message{
+    font-weight: bold;
+    font-size:1.2rem;
+    color:#434851;
+    margin-bottom:0.3rem;
+    margin:0 0 0 0.6rem;
+  }
+.footer-contact{                                        font-size:0.9rem;
+    color:#434851;
+    margin:0.6rem;
+  }
