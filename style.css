@@ -57,6 +57,14 @@ table td {
 table td.company { font-size : 20px; }
 table td.price { font-size : 20px; color:#0a56a9; }
 
+/*select box*/ 
+
+table select {
+  width: 30%;
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  }
+
 
 /*버튼모양 설정*/ 
 
@@ -96,28 +104,24 @@ table td.price { font-size : 20px; color:#0a56a9; }
   font-weight: bold; 
   color: white; 
   text-align: center; 
-  margin-bottom: 25px; }
+  }
 
 /*기타제품소개*/
 
 .box {
-  width:240px;
-  height:190px;
+  width:320px;
+  height:205px;
   border: 3px solid skyblue;
-  display:inline-block;
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center; 
   margin-top: 5px;
-  padding: 10px 0 0 130px;
+  }
 
-}
+.box > img {
+ display: block;
+ margin: 0 auto;
+ }
 
-.more {
-  width:100px;
-  height:30px;
-  background:#0a56a9;
-  color:#fff;
-  font-sizw: 12px;
-  line-height: 30px;
-  margin-top: 5px;
-  border-radius: 3px;
-  text-align: center;
-}
+
