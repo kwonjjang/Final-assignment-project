@@ -3,10 +3,11 @@
 
 /*폰트설정*/ 
 
-p.subtitle {
+.subtitle {
   font-family: 'Black Han Sans', 
   sans-serif;  
-  text-align: center;
+  text-align: justify;
+  font-size: 14pt;
   }
 
  .main-text {
@@ -14,7 +15,7 @@ p.subtitle {
    font-size: 12pt;
    letter-spacing: 0.02em;
    word-spacing: 1m; 
-   line-height: 2em;
+   line-height: 1.3em;
  }
 
 h2 {
@@ -117,8 +118,12 @@ table select {
 
 /*기타제품소개*/
 
+.sub-pro {
+  display: flex;
+  }
+
 .box {
-  width:270px;
+  width:190px;
   height:205px;
   border: 3px solid skyblue;
   display: inline-block;
@@ -129,7 +134,9 @@ table select {
   }
 
 .box > img {
- display: block;
+ display: inline-block;
+ width: 120px; 
+ height: 120px;
  margin: 0 auto;
  }
 
